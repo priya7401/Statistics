@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+.app-components {
+    display: flexbox;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.components {
+    display: flex;
+    padding: 5px;
+}
+
+.components > button, .app-components > button {
+    font-size: 20px;
+    background-color: blanchedalmond;
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+}
